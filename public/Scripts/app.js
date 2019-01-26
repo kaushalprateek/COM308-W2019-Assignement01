@@ -4,7 +4,7 @@
 
 function Start()
 {
-console.log('%c App started...', "font-size:20px; color: blue; font-weight: bold")
+console.log('%c App started...', "font-size:20px; color: blue")
 }
 
 window.addEventListener("load",Start);
