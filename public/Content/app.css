@@ -12,15 +12,41 @@
 #left {
   float: left;
   border: 2px;
-  width: 40%;
+  width: 30%;
   margin: 2px;
   padding: 1em;
-  background: white;
 }
 #right {
   float: right;
   border: 2px;
   width: 50%;
+  margin: 2px;
+  padding: 1em;
+}
+
+#top {
+  float: top;
+  height: 33%;
+  border: 2px;
+  padding: 1em;
+  margin: 2px;
+  padding: 1em;
+  background: white;
+}
+#center {
+  float: center;
+  height: 33%;
+  border: 2px;
+  margin: 2px;
+  padding: 1em;
+  background: white;
+}
+#bottom {
+  float: bottom;
+  height: 33%;
+  box-align: bottom;
+  border: 2px;
+
   margin: 2px;
   padding: 1em;
   background: white;

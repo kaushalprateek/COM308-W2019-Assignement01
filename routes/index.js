@@ -12,9 +12,9 @@ router.get("/contact", function(req, res, next) {
   res.render("index", { title: "Contacts" });
 });
 router.get("/projects", function(req, res, next) {
-  res.render("index", { title: "Projects" });
+  res.render("templates/projects.ejs", { title: "Projects" });
 });
 router.get("/services", function(req, res, next) {
-  res.render("index", { title: "Services" });
+  res.render("templates/services.ejs", { title: "Services" });
 });
 module.exports = router;

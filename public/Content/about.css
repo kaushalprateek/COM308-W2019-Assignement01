@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-#left {
+#lft {
   float: left;
   border: 2px;
   width: 40%;
@@ -11,7 +11,7 @@
   padding: 1em;
   background: white;
 }
-#right {
+#rght {
   float: right;
   border: 2px;
   width: 40%;
