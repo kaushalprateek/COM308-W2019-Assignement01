@@ -1,0 +1,16 @@
+<% include ../partials/header.ejs  %>
+
+<body >
+     <div class="container" >
+       <div  class="jumbotron">
+           <h1 class="display-4">welcome to <%=title %></h1>
+           <p><b>MISSION:</b>Targeting a Software Engineering position in a fast paced and challenging environment</p>
+          <% if (title=="Home") { %>
+          <a class= "btn btn-primary" href="/About" role="button"> Know more About me </a>
+
+            <%  } %>
+        </div>
+     </div>
+
+
+<% include ../partials/footer.ejs %>

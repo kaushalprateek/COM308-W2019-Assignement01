@@ -1,27 +1,21 @@
-/* custom CSS here */
-
 #content {
   overflow: auto;
   width: 100%;
-  margin: 2px;
-}
-#body {
-  background-color: rgb(255, 225, 127);
 }
 
 #left {
   float: left;
   border: 2px;
   width: 40%;
-  margin: 2px;
+  margin: 5px;
   padding: 1em;
   background: white;
 }
 #right {
   float: right;
   border: 2px;
-  width: 50%;
-  margin: 2px;
+  width: 40%;
+  margin: 5px;
   padding: 1em;
   background: white;
 }

@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head >
     
  
   </head>
-  <title><%= title %></title>
+  <title  ><%= title %></title>
+  
   <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="content/app.css">
   <body>
-  <h1> welcome </h1>
+  
   
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-       <a class="navbar-brand" href="#">Prateek's Portfolio</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark"  src="Assets/images/Logo.png">
+       <a class="navbar-brand"   href="#"><img width="230px"  height="80px" src="Assets/images/Logo.png"></a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class=""></span>
        </button>
@@ -34,12 +35,12 @@
             <% } %>
              <a class="nav-link" href="/about"><i class="fa fa-lg fa-play-circle-o"></i> About</a>
            </li>
-           <% if(title == "Products") {%>
+           <% if(title == "Projects") {%>
            <li class="nav-item active">
            <% } else { %>
            <li class="nav-item">
             <% } %>
-               <a class="nav-link" href="/products"><i class="fa fa-lg fa-shopping-basket"></i> Products</a>
+               <a class="nav-link" href="/projects"><i class="fa fa-lg fa-shopping-basket"></i> Projects</a>
              </li>
              <% if(title == "Services") {%>
            <li class="nav-item active">

@@ -1,5 +1,5 @@
 {
-  "name": "comp308-w2019-lesson4a",
+  "name": "comp308-w2019-assignment01",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -28,10 +28,10 @@
   "description": " mongo desc",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaushalprateek/COM308-W2019-Lesson4A.git"
+    "url": "git+https://github.com/kaushalprateek/COM308-W2019-ASSIGNMENT01.git"
   },
   "bugs": {
-    "url": "https://github.com/kaushalprateek/COM308-W2019-Lesson4A/issues"
+    "url": "https://github.com/kaushalprateek/COM308-W2019-ASSIGNMENT01/issues"
   },
-  "homepage": "https://github.com/kaushalprateek/COM308-W2019-Lesson4A#readme"
+  "homepage": "https://github.com/kaushalprateek/COM308-W2019-ASSIGNMENT01#readme"
 }
