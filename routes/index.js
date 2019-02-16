@@ -9,7 +9,7 @@ router.get("/about", function(req, res, next) {
   res.render("templates/about.ejs", { title: "About" });
 });
 router.get("/contact", function(req, res, next) {
-  res.render("index", { title: "Contacts" });
+  res.render("templates/contact.ejs", { title: "Contacts" });
 });
 router.get("/projects", function(req, res, next) {
   res.render("templates/projects.ejs", { title: "Projects" });

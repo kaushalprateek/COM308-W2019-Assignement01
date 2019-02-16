@@ -19,12 +19,12 @@ mongoDB.once("open", () => {
   console.log("Connected to mongoDB...");
 });
 
-var indexRouter = require("./routes/index");
-var usersRouter = require("./routes/users");
+let indexRouter = require("./routes/index");
+let usersRouter = require("./routes/users");
 
 let contactRouter = require("./routes/contact");
 
-var app = express();
+let app = express();
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));

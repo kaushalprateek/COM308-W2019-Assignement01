@@ -1,0 +1,41 @@
+<% include ../partials/header.ejs %>
+
+
+
+<div id="content" style="background-color:coral" >
+  
+      <div  id="left" >
+        
+           
+           <h3>Name: Prateek Kaushal</h3><br>
+            <h3>Email:Prateekamable@gmail.com</h3><br>
+             <h3>Mob: 4379299492</h3><br>
+        </div>
+      <div class="containerForm" id="right">
+
+<h1>Contact me:</h1>
+            <form href="/About" method="post">
+    <label for="frstname">First Name</label>
+    <input type="text" id="frstname" name="Firstname" placeholder="Your name.....">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="lstname">Last Name</label>
+    <input type="text" id="lstname" name="Lastname" placeholder="Your last name.....">
+<br>
+    <label for="contact">Contact</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" id="contact" name="Contact" placeholder="Your contact.....">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" id="email" name="Email" placeholder="Your email.....">
+<br>
+    <label for="subject">Message</label> &nbsp;&nbsp;
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px" style="width:350px"></textarea>
+<br> 
+    <input type="submit" value="Submit" href="/About.ejs" >
+  </form>
+
+
+
+  </div>
+  
+</div>
+<% include ../partials/footer.ejs %>
