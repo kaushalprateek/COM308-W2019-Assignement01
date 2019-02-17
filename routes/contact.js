@@ -15,7 +15,7 @@ router.get("/", (req, res, next) => {
       console.log(contactList);
 
       res.render("contacts/index.ejs", {
-        title: "Favourite things",
+        title: "contact info",
         contactList: contactList
       });
     }

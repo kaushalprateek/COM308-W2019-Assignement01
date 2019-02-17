@@ -10,15 +10,22 @@
       <table class="table table-bordered table-striped table-hover">
         <!-- Header Row-->
         <tr>
-          <th class="text-center">Name</th>
-          <th class="text-center">Description</th>
+          <th class="text-center">FirstName</th>
+          <th class="text-center">LastName</th>
+          <th class="text-center">Contact</th>
+          <th class="text-center">Email</th>
+          <th class="text-center">Message</th>
         </tr>
 
         <!-- Template Row-->
         <% for(let count = 0; count < contactList.length; count++) { %>
         <tr>
-          <td class="text-center"><%= contactList[count].name %></td>
-          <td class="text-center"><%= contactList[count].description %></td>
+          <td class="text-center"><%= contactList[count].fname %></td>
+          <td class="text-center"><%= contactList[count].lname %></td>
+           <td class="text-center"><%= contactList[count].contact %></td>
+            <td class="text-center"><%= contactList[count].email %></td>
+             <td class="text-center"><%= contactList[count].message %></td>
+
         </tr>
         <% } %>
       </table>

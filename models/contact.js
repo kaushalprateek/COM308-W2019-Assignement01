@@ -4,8 +4,11 @@ let mongoose = require("mongoose");
 
 let contactSchema = mongoose.Schema(
   {
-    name: String,
-    description: String
+    fname: String,
+    lname: String,
+    contact: String,
+    email: String,
+    message: String
   },
   {
     collection: "favourite_things"

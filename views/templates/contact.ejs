@@ -14,24 +14,28 @@
       <div class="containerForm" id="right">
 
 <h1>Contact me:</h1> <!-- form for contacting me (not working yet)-->
-            <form  action="about" method="Get">
+  
+            <form  action="/contacts-list" method="GET">
     <label for="frstname">First Name</label>  
-    <input type="text" id="frstname" name="Firstname" placeholder="Your name.....">
+    <input type="text" id="frstname" name="Firstname" placeholder="Your name....." required>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="lstname">Last Name</label>
-    <input type="text" id="lstname" name="Lastname" placeholder="Your last name.....">
+    <input type="text" id="lstname" name="Lastname" placeholder="Your last name....." required>
 <br>
     <label for="contact">Contact</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <input type="text" id="contact" name="Contact" placeholder="Your contact.....">
+    <input type="text" id="contact" name="Contact" placeholder="Your contact....." required>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <label for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <input type="text" id="email" name="Email" placeholder="Your email.....">
+    <input type="text" id="email" name="Email" placeholder="Your email....."required>
 <br>
     <label for="subject">Message</label> &nbsp;&nbsp;
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px" style="width:350px"></textarea>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px" style="width:350px" required></textarea>
 <br> 
+
     <button class="btn btn-primary" >
+    
                 <i class="fas fa-edit"></i> Submit</button>
+                 
                 
   </form>
 
