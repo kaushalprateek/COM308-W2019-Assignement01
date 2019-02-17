@@ -46,15 +46,13 @@
   height: 33%;
   box-align: bottom;
   border: 2px;
-
   margin: 2px;
   padding: 1em;
   background: white;
 }
 
-
-input[type=submit] {
-  background-color: #4CAF50;
+input[type="submit"] {
+  background-color: #4caf50;
   color: white;
   padding: 12px 20px;
   border: none;
