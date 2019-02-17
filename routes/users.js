@@ -1,9 +1,10 @@
-var express = require('express');
+//Prateek  kaushal 300985002 SEC: 008
+var express = require("express");
 var router = express.Router();
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+router.get("/", function(req, res, next) {
+  res.send("respond with a resource");
 });
 
 module.exports = router;
